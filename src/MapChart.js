@@ -161,11 +161,11 @@ class MapChart extends Map {
                   <Modal.Title><FontAwesomeIcon icon={faShieldVirus}/> Good to see you!</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className={"text-justify"}>
-                    <p><i>covid19map.io</i> is a free <a target="_blank" href="https://github.com/daniel-karl/covid19-map/#open-covid19-map-%EF%B8%8F">open source</a> project.</p>
-                    <p>We provide a more detailed view on <a target="_blank" href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University CSSE COVID-19 data repository</a>.</p>
-                    <p>If you experience any issues or have suggestions on how to improve this application <a target="_blank" href="https://github.com/daniel-karl/covid19-map/issues">please let us know</a>.</p>
+                    <p><i>COVID Tracker 2.1</i> is a free Non-Profit Project</p>
+                    <p>We provide a more detailed view on <a target="_blank" href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University CSSE COVID-19 data </a>.</p>
+                    <p>If you experience any issues or have suggestions on how to improve this application <a target="_blank" href="mailto:gourab@creticweb.tech">please let us know</a>.</p>
                     Stay healthy,<br />
-                    <a target="_blank" href="https://github.com/daniel-karl/covid19-map#contributors">The contributors</a>
+                    
                 </Modal.Body>
                 <Modal.Footer className={"bg-light"}>
                   <Button variant="dark" onClick={()=>{this.setState({showModal: false})}}>
