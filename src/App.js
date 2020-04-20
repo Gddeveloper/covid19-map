@@ -22,7 +22,7 @@ function App() {
       <Navbar bg="light" fixed="top" className={"p-0 pl-2"} expand={"xs"}>
         <Navbar.Brand>
             <span className="small">C<FontAwesomeIcon icon={faDotCircle} />VID19 </span>
-            <span className={"mapio"}><b>MAP</b><span className="text-secondary">.IO</span></span>
+            <span className={"mapio"}><b>Tracker</b><span className="text-secondary">2.1</span></span>
         </Navbar.Brand>
           <span>
             {
